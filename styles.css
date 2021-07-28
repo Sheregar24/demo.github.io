@@ -296,6 +296,20 @@ section {
 
 }
 
+.grid-item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+
+.grid-item2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
 .feactured-hotels {
     height: 35rem;
     color: #fff;
@@ -717,3 +731,19 @@ textarea {
     margin-right: auto;
     width: 50%;
   }
+
+/* room page images */
+
+#room_img{
+    height: 60vh;
+    width: 100%;
+    background-color: #fa9e2c;
+}
+#room_des .room_title{
+    font-size: 2.5rem;
+
+
+}
+#room_des .desc{
+    font-size: 1.5rem;
+}
